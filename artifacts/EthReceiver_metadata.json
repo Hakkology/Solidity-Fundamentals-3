@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Object Oriented Concepts/Send ETH.sol": "EthReceiver"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Object Oriented Concepts/Send ETH.sol": {
+			"keccak256": "0x26018de270eb03cf32584244413efc21d11ee6a65369e8d6a5dfba6a90d56183",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://98fd44cbdc8117646034879b08126f63840d80e8a24676fa436c75278c83e1a3",
+				"dweb:/ipfs/QmVHgdchYifGsz8cy46thdLkhup4VtAZX8qCXSabaan94t"
+			]
+		}
+	},
+	"version": 1
+}
